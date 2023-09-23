@@ -1,6 +1,6 @@
 import { Box, VisuallyHidden } from "@chakra-ui/react";
 import React from "react";
-import { SiteMenu } from "./navigation";
+import { SiteMenu } from "./navigation-old";
 import {
   IoLogoTwitter,
   IoLogoPinterest,

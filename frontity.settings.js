@@ -2,7 +2,7 @@ const settings = {
   name: "sawtee-frontity",
   state: {
     frontity: {
-      url: "https://sawtee.org/backend",
+      // url: "https://sawtee.org/backend",
       title: "SAWTEE",
       description: "South Asia Watch on Trade, Economics and Environment",
       year: "1994",
@@ -15,11 +15,11 @@ const settings = {
       state: {
         theme: {
           menu: [
-            ["Home", "/"],
-            ["Nature", "/category/nature/"],
-            ["Travel", "/category/travel/"],
-            ["Japan", "/tag/japan/"],
-            ["About Us", "/about-us/"],
+            // ["Home", "/"],
+            // ["About Us", "/about/"],
+            // ["Our Work", "/our-work/"],
+            // ["Publications", "/publications/"],
+            // ["Events", "/featured-events/"],
           ],
           socialLinks: [
             ["facebook", "https://www.facebook.com/sawteenp/"],
@@ -39,8 +39,8 @@ const settings = {
       state: {
         source: {
           url: "https://sawtee.org/backend",
-          homepage: "home",
-          postsPage: "blog",
+          // homepage: "home",
+          // postsPage: "blog",
           params: {
             orderBy: "id",
             order: "desc",

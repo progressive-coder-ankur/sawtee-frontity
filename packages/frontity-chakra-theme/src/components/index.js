@@ -49,7 +49,7 @@ const Theme = ({ state }) => {
           <Loading when={data.isFetching} />
           <SearchResults when={data.isSearch} />
           <Archive when={data.isArchive} />
-          <Post when={data.isPostType} />
+          <Post when={data.isPostType || data.isPage} />
           <Page404 when={data.is404} />
         </Switch>
       </Box>
